@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    padding: 10px 10%;
+    font-family: 'Balsamiq Sans';
+    font-size: 18px;
+}
+/*Estilos Generales*/
+.box{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.box-button{
+    font-family: 'Balsamiq Sans';
+    font-size: 18px;
+    padding: 3px 14px;
+    background-color: rgb(255, 217, 0);
+    border: 3px solid black;
+    box-shadow: 3px 3px black;
+}
+
+
+.publication-box .box-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.publication-box .box-header>h3{
+    font-size: 24px;
+}
+.publication-box .box-header>*{
+    flex:1;
+}
+.publication-box .box-header>.like-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items:center;
+}
+.publication-box .box-header>.like-section>*{
+    margin:0 20px;
+    
+}
+.box-body>.description{
+    font-size: 20px;
+}
