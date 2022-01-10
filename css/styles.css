@@ -4,11 +4,18 @@
     border: 0;
 }
 body{
-    padding: 10px 10%;
+    padding: 0 10%;
     font-family: 'Balsamiq Sans';
     font-size: 18px;
 }
 /*Estilos Generales*/
+h2{
+    font-size: 30px;
+    font-weight: 200;
+}
+h3{
+    font-size: 24px;
+}
 .box{
     border: 2px solid black;
     display: flex;
@@ -24,17 +31,43 @@ body{
     border: 3px solid black;
     box-shadow: 3px 3px black;
 }
+.user-picture{
+    height: 100px;
+}
+main{
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+.publication-feed{
+    margin-left: 10px;
+    flex:1;
+}
+.profile-section{
+    margin-right: 10px;
+    width: 200px;
+}
 
+/*header*/
+.top-bar{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+.page-title{
+    margin: 10px auto;
+    text-align: center;
+}
 
+/*cajas de publicacion*/
 .publication-box .box-header{
     display: flex;
     flex-direction: row;
     align-items: center;
     margin-bottom: 20px;
 }
-.publication-box .box-header>h3{
-    font-size: 24px;
-}
+
 .publication-box .box-header>*{
     flex:1;
 }
@@ -48,6 +81,28 @@ body{
     margin:0 20px;
     
 }
+.box-body{
+    padding-right: 30px;
+}
 .box-body>.description{
     font-size: 20px;
+    
+}
+/*profile section*/
+.profile-section .user-info-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0px;
+}
+.user-info-box .box-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+.user-info-box .box-body>*{
+    margin: 10px 0;
 }

@@ -11,18 +11,65 @@
         <link rel="stylesheet" href="./css/styles.css">
     </head>
     <body>
-        <div class="publication-box box">
-            <div class="box-header">
-                <h3>Some User</h3>
-                <div class="like-section">
-                    <p><span class="like-counter" id="like-counter-1">3</span> like(s)</p>
-                    <button class="like-button box-button" id="like-1">Like</button>
+        <header>
+            <div class="top-bar">
+                <h2>Network</h2>
+            </div>
+            <div class="page-title">
+                <h2>Your Feed</h2>
+            </div>
+        </header>
+        <main>
+            <section class="publication-feed">
+                <div class="publication-box box">
+                    <div class="box-header">
+                        <h3>Neil M</h3>
+                        <div class="like-section">
+                            <p><span class="like-counter" id="like-counter-1">9</span> like(s)</p>
+                            <button class="like-button box-button" id="like-1">Like</button>
+                        </div>
+                    </div>
+                    <div class="box-body">
+                        <p class="description">I just set up this new discord bot, let me know what you all think. <a href="#">link</a></p>
+                    </div>
                 </div>
-            </div>
-            <div class="box-body">
-                <p class="description">This is some filler text, it can say anything we like</p>
-            </div>
-        </div>
+                <div class="publication-box box">
+                    <div class="box-header">
+                        <h3>Nichole K</h3>
+                        <div class="like-section">
+                            <p><span class="like-counter" id="like-counter-2">12</span> like(s)</p>
+                            <button class="like-button box-button" id="like-2">Like</button>
+                        </div>
+                    </div>
+                    <div class="box-body">
+                        <p class="description">Just finished my <a href="#">next-comic</a>, check it out.</p>
+                    </div>
+                </div>
+                <div class="publication-box box">
+                    <div class="box-header">
+                        <h3>Jim R</h3>
+                        <div class="like-section">
+                            <p><span class="like-counter" id="like-counter-3">9</span> like(s)</p>
+                            <button class="like-button box-button" id="like-3">Like</button>
+                        </div>
+                    </div>
+                    <div class="box-body">
+                        <p class="description">I can't stop listening to the <a href="#">new album</a>. Who else is liking it?</p>
+                    </div>
+                </div>
+            </section>
+            <aside class="profile-section">
+                <div class="user-info-box box">
+                    <div class="box-header">
+                        <img src="icons/user-circle.png" alt="user-picture" class="user-picture">
+                    </div>
+                    <div class="box-body">
+                        <a href="#">Add an avatar</a>
+                        <h3>James Doe</h3>
+                    </div>
+                </div>
+            </aside>
+        </main>
         
         <script src="./js/index.js"></script>
     </body>
